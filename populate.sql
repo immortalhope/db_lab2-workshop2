@@ -37,8 +37,14 @@ INSERT INTO museums (museum_id, museum_name, m_type)
 VALUES (8403600231, 'JOHN MALLOY ART', 'ART MUSEUM');
 INSERT INTO museums (museum_id, museum_name, m_type) 
 VALUES (8403600877, 'MUSEUM OF ARTS AND DESIGN', 'ART MUSEUM');
-
-
+INSERT INTO museums (museum_id, museum_name, m_type) 
+VALUES (8400500193, 'HISTORIC PRESERVATION ALLIANCE OF ARKANSAS', 'HISTORIC PRESERVATION');
+INSERT INTO museums (museum_id, museum_name, m_type) 
+VALUES (8400602927, 'LOMPOC VALLEY HISTORICAL SOCIETY', 'HISTORIC PRESERVATION');
+INSERT INTO museums (museum_id, museum_name, m_type) 
+VALUES (8403600212, 'JAZZ MUSEUM', 'GENERAL MUSEUM');
+INSERT INTO museums (museum_id, museum_name, m_type) 
+VALUES (8403600237, 'JEWISH CHILDREN`S LEARNING LAB', 'CHILDREN`S MUSEUM');
 
 
 --Populating the museum_income table
@@ -58,6 +64,14 @@ INSERT INTO museum_income (museum_id, income)
 VALUES (8403600231, NULL);
 INSERT INTO museum_income (museum_id, income)
 VALUES (8403600877, 27904762);
+INSERT INTO museum_income (museum_id, income)
+VALUES (8400500193, 198127);
+INSERT INTO museum_income (museum_id, income)
+VALUES (8400602927, 51978);
+INSERT INTO museum_income (museum_id, income)
+VALUES (8403600212, NULL);
+INSERT INTO museum_income (museum_id, income)
+VALUES (8403600237, NULL);
 
 
 --Populating the museum_location table
@@ -77,8 +91,14 @@ INSERT INTO museum_location (museum_id, m_state, city, street)
 VALUES (8403600231, 'NY', 'NEW YORK', 'AVENUE 5');
 INSERT INTO museum_location (museum_id, m_state, city, street)
 VALUES (8403600877, 'NY', 'NEW YORK', '4721 AIRCRAFT DR');
-
-
+INSERT INTO museum_location (museum_id, m_state, city, street)
+VALUES (8400500193, 'AR', 'LITTLE ROCK', 'street');
+INSERT INTO museum_location (museum_id, m_state, city, street)
+VALUES (8400602927, 'CA', 'LOMPOC', 'street');
+INSERT INTO museum_location (museum_id, m_state, city, street)
+VALUES (8403600212, 'NY', 'NEW YORK', 'street');
+INSERT INTO museum_location (museum_id, m_state, city, street)
+VALUES (8403600237, 'NY', 'NEW YORK', 'street');
 
 
 
